@@ -59,7 +59,17 @@ body {
     margin: 0;
     margin-bottom: 0.4em;
   }
-  
+    
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .description {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+
   .weather.loading {
     visibility: hidden;
     max-height: 20px;
